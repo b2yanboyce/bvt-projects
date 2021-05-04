@@ -35,19 +35,19 @@ h3{
     box-shadow: 3px 3px 26px 1px rgba(0, 0, 0, 0.94);
 }
 
-.login-form{
-    display:flex;
-    width: 50%;
-    height: 60%;
-    flex-flow: wrap;
-    align-items: center;
-    justify-content:center;
-
-}
-
 .entry-text{
+    display:flex;
+    flex-flow: column wrap;
+    justify-items: center;
     font-size:x-large;
     font-family: monospace;
+}
+
+.text-box{
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 1px dotted;
+    background-color: rgba(255, 255, 255, 0.0);
 }
 
 #submit{
@@ -67,10 +67,6 @@ h3{
     color: black;
 }
 
-.text-box{
-    border: 1px dotted;
-    background-color: rgba(255, 255, 255, 0.0);
-}
 
 
 
