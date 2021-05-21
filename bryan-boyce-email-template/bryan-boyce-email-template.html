@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid my-container">
+        <div class="row my-row">
+            <div class="col-md-2 col-sm-4 col-left">
+                <h4>Welcome, Bryan!</h4>
+                <button type="button" class="btn btn-primary btn-block compose-button">Compose</button>
+                <br><br>
+                <ul class="links">
+                      <li><a class="nav-link" href="#"><strong>Inbox(1)</strong></a></li>
+                      <li><a class="nav-link" href="#">Tagged</a></li>
+                      <li><a class="nav-link" href="#">Important</a></li>
+                      <li><a class="nav-link" href="#">Sent Mail</a></li>
+                      <li><a class="nav-link" href="#">Drafts</a></li>
+                      <li><a class="nav-link" href="#">Trash</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-8 col-mid">
+                <div class="search-box">                
+                    <button type="submit"><i class="bi bi-search"></i></button>
+                    <input type="text" placeholder="Search for emails" name="search">
+                </div>
+                <a class = "email-link" href="#">
+                    <div class="box">
+                        <h5><strong>LinkedIn</strong><span id="timeReceived">02:45pm</span></h5>
+                        <h6>You have a new connection request.</h6>
+                    </div>
+                </a>
+                <a class = "email-link" href="#">
+                    <div class="box">
+                        <h5><strong>Michael Scott Daily Quotes</strong><span id="timeReceived">July 03, 2020</span></h5>
+                        <h6>I'm optimistic because everyday I get a little more desp...</h6>
+                    </div>
+                </a>               
+                <a class = "email-link" href="#">
+                    <div class="box">
+                        <h5><strong>LeMar Software</strong><span id="timeReceived">Feb 09, 2020</span></h5>
+                        <h6>Learn how you can give us money by calling (209) 322 7...</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-7 col-sm-12 col-right">
+                To: bryanboyce@BVTcodeacademy.com
+                <br>From: TheOfficeDaily@junkmail.com
+                <br><br>
+                <h2>Michael Scott Daily Quotes
+                    <span id="icons">
+                        <a href="#"><i class="bi bi-trash" style="font-size:0.8em"></i></a>
+                        <a href="#"><i class="bi bi-reply" style="font-size:0.8em"></i></a>
+                        <a href="#"><i class="bi bi-grip-horizontal" style="font-size:0.8em"></i></a>
+                    </span>
+                </h2>
+                <div class="email-content">
+                    "Friends joke with one another. 'Hey, you're poor.' 'Hey, your momma's dead.' That's what friends do."
+                    <p>"It's a good thing Russia doesn't exist anymore."</p>
+                    <p>"You cheated on me? When I specifically asked you not to?"</p>
+                    <p>"It just seems awfully mean. But sometimes, the ends justify the mean."</p>
+                    <p>"Reverse psychology is an awesome tool. I don't know if you guys know about it, but, basically, you make someone think 
+                        the opposite of what you believe, and that tricks them into doing something stupid. Works like a charm."</p>
+                </div>
+                <textarea class="reply-box" text type="text"></textarea>
+                <br><button class="btn btn-secondary reply-button" name="reply">Reply</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
